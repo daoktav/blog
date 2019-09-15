@@ -1,8 +1,0 @@
-pelican
-webassets
-cssmin
-beautifulsoup4
-markdown
-ghp-import
-typogrify
-peru

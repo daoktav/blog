@@ -1,7 +1,0 @@
-# Python
-__pycache__/
-
-# Pelican
-plugins/
-output/
-.peru/

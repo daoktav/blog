@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="azzamsa" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="Emacs, CS, lang-en, " />
+
+<meta property="og:title" content="Simple Org-Mode Cheatsheet "/>
+<meta property="og:url" content="https://cs.azzamsa.com/simple-org-mode-cheatsheet" />
+<meta property="og:description" content="I made this this org-mode cheatsheet as simple as possible, this cheatsheet intended for contributors who want to contribute project with org-mode as readme file. Heading * H1 ** H2 *** H3 Emphasis /italics/, *bold*, _underline_ ~inline code~, =verbatim text= ,+deleted text+ super^{script}, sub_{script} List Unordered lists - Animal. - Fruit. + Apple. * Red …" />
+<meta property="og:site_name" content="AZZAMSA" />
+<meta property="og:article:author" content="azzamsa" />
+<meta property="og:article:published_time" content="2017-10-31T22:25:22+07:00" />
+<meta name="twitter:title" content="Simple Org-Mode Cheatsheet ">
+<meta name="twitter:description" content="I made this this org-mode cheatsheet as simple as possible, this cheatsheet intended for contributors who want to contribute project with org-mode as readme file. Heading * H1 ** H2 *** H3 Emphasis /italics/, *bold*, _underline_ ~inline code~, =verbatim text= ,+deleted text+ super^{script}, sub_{script} List Unordered lists - Animal. - Fruit. + Apple. * Red …">
+
+        <title>Simple Org-Mode Cheatsheet  · AZZAMSA
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet"> -->
+        <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous">
+<link rel="stylesheet" href="https://cs.azzamsa.com/theme/css/style.min.css?8bdcf96a">
+        <link rel="shortcut icon" href="https://cs.azzamsa.com/theme/images/favicon.png" type="image/x-icon" type="image/png" />
+        <link rel="icon" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+        <link rel="apple-touch-icon" href="https://cs.azzamsa.com/theme/images/apple-touch-icon.png"  type="image/png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-57x57.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-72x72.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-76x76.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-114x114.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-120x120.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-144x144.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-125671517-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://azzamsa.com/"><span class=site-name>AZZAMSA</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <!-- <li ><a href="http://azzamsa.com/">Home</a></li> -->
+                            <li ><a href="https://cs.azzamsa.com/archives">Archives</a></li>
+                            <li ><a href="https://cs.azzamsa.com/categories">Categories</a></li>
+                            <li ><a href="https://cs.azzamsa.com/tags">Tags</a></li>
+                            <li><form class="navbar-search" action="https://cs.azzamsa.com/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article itemscope>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="https://cs.azzamsa.com/simple-org-mode-cheatsheet"> Simple Org-Mode&nbsp;Cheatsheet  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            
+            <p>I made this this org-mode cheatsheet as simple as possible, this cheatsheet intended for
+contributors who want to contribute project with org-mode as readme&nbsp;file.</p>
+<h2 id="heading">Heading</h2>
+<div class="highlight"><pre><span></span>* H1
+** H2
+*** H3
+</pre></div>
+
+
+<!--more-->
+
+<h2 id="emphasis">Emphasis</h2>
+<div class="highlight"><pre><span></span>/italics/, *bold*, _underline_
+
+~inline code~, =verbatim text= ,+deleted text+ 
+
+super^{script}, sub_{script}
+</pre></div>
+
+
+<h2 id="list">List</h2>
+<h3 id="unordered-lists">Unordered&nbsp;lists</h3>
+<div class="highlight"><pre><span></span>- Animal.
+- Fruit.
+  + Apple.
+    * Red Apple.
+</pre></div>
+
+
+<h3 id="ordered-lists">Ordered&nbsp;lists</h3>
+<div class="highlight"><pre><span></span>1. Animal
+   A. Lion
+      a. Red Lion.
+      b. Blue Lion.
+   B. Tiger.
+2. Fruit.
+</pre></div>
+
+
+<h2 id="links">Links</h2>
+<div class="highlight"><pre><span></span>[[http://orgmode.org/][Org mode Web site]]
+</pre></div>
+
+
+<h3 id="automatic">automatic</h3>
+<div class="highlight"><pre><span></span>http://www.gnu.org (automatic!) 
+</pre></div>
+
+
+<h3 id="image-links">Image&nbsp;links</h3>
+<div class="highlight"><pre><span></span>[[http://orgmode.org/][file:images/org-mode-unicorn.png]]
+</pre></div>
+
+
+<h3 id="inline-anchors">Inline&nbsp;anchors</h3>
+<div class="highlight"><pre><span></span>Anchors are used to specify hypertext link targets.
+
+&lt;&lt;anchor&gt;&gt; Inline anchors make arbitrary content referenceable.
+</pre></div>
+
+
+<h2 id="images">Images</h2>
+<div class="highlight"><pre><span></span><span class="p">[[</span><span class="o">/</span><span class="n">img</span><span class="o">/</span><span class="n">org</span><span class="o">-</span><span class="n">mode</span><span class="o">-</span><span class="n">unicorn</span><span class="p">.</span><span class="n">png</span><span class="p">][</span><span class="n">Monocerus</span> <span class="n">glaucus</span><span class="p">]]</span>
+</pre></div>
+
+
+<h3 id="image-with-captions">Image with&nbsp;captions</h3>
+<div class="highlight"><pre><span></span>#+CAPTION: Monocerus glaucus
+#+ATTR_HTML: alt=&quot;Monocerus glaucus&quot;
+[[[[/img/org-mode-unicorn.png]]]]
+</pre></div>
+
+
+<h3 id="image-positioning">Image&nbsp;positioning</h3>
+<div class="highlight"><pre><span></span><span class="err">#</span><span class="o">+</span><span class="nt">ATTR_HTML</span><span class="o">:</span> <span class="nt">style</span><span class="o">=</span><span class="s2">&quot;float:right;margin:0px 0px 20px 20px;&quot;</span>
+<span class="cp">[</span><span class="err">[</span><span class="p">/</span><span class="nb">img</span><span class="p">/</span><span class="nx">org</span><span class="na">-mode-unicorn.png</span><span class="cp">]</span><span class="o">]</span>
+<span class="nt">Lorem</span> <span class="nt">ipsum</span> <span class="nt">dolor</span> <span class="nt">sit</span> <span class="nt">amet</span><span class="o">,</span> <span class="nt">consectetuer</span> <span class="nt">adipiscing</span> <span class="nt">elit</span><span class="o">,</span> <span class="nt">sed</span> <span class="nt">diam</span> <span class="nt">nonummy</span>
+<span class="err">#</span><span class="o">+</span><span class="nt">ATTR_HTML</span><span class="o">:</span> <span class="nt">style</span><span class="o">=</span><span class="s2">&quot;float:left;margin:20px 20px 20px 0px;&quot;</span>
+<span class="cp">[</span><span class="err">[</span><span class="p">/</span><span class="nb">img</span><span class="p">/</span><span class="nx">org</span><span class="na">-mode-unicorn.png</span><span class="cp">]</span><span class="o">]</span>
+<span class="nt">euismod</span>  <span class="nt">tincidunt</span> <span class="nt">ut</span> <span class="nt">laoreet</span> <span class="nt">dolore</span> <span class="nt">magna</span> <span class="nt">aliquam</span> <span class="nt">erat</span> <span class="nt">volutpat</span><span class="o">.</span>
+</pre></div>
+
+
+<p>To learn more about images, read <a href="http://orgmode.org/worg/org-tutorials/images-and-xhtml-export.html">Images and <span class="caps">XHTML</span>&nbsp;export</a></p>
+<h2 id="code-and-syntax-highlighting">Code and Syntax&nbsp;Highlighting</h2>
+<h3 id="inline">inline</h3>
+<div class="highlight"><pre><span></span>~foo~, ~baz~
+</pre></div>
+
+
+<h3 id="source-code-block">source code&nbsp;block</h3>
+<div class="highlight"><pre><span></span>#+BEGIN_SRC lisp
+
+#+END_SRC
+</pre></div>
+
+
+<h2 id="tables">Tables</h2>
+<div class="highlight"><pre><span></span>| a | b | c |
+|---+---+---|
+| 1 | 2 | 3 |
+| 4 | 5 | 6 |
+</pre></div>
+
+
+<h2 id="document-settings">Document&nbsp;settings</h2>
+<div class="highlight"><pre><span></span>#+OPTIONS:
+#+STARTUP: 
+</pre></div>
+
+
+<p>for&nbsp;startup:</p>
+<ul>
+<li>showeverything</li>
+<li>align</li>
+</ul>
+<p>for&nbsp;options:</p>
+<ul>
+<li>toc:nil = don&#8217;t preserve table of&nbsp;content</li>
+<li>num:nil = no&nbsp;numbering</li>
+<li>H:4     = heading&nbsp;level</li>
+<li>\n:t    =  add new line&nbsp;(&#92;)</li>
+</ul>
+<p>for more information see <a href="http://orgmode.org/guide/Export-options.html">Export&nbsp;Options</a></p>
+<h1 id="credits">Credits</h1>
+<ul>
+<li><a href="https://github.com/fniessen/refcard-org-mode">Org mode syntax reference card</a> by <a href="http://www.pirilampo.org/">Fabrice&nbsp;Niessen</a></li>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet">Markdown Here Cheatsheet</a> by <a href="https://crypti.cc/">Adam&nbsp;Pritchard</a></li>
+<li><a href="http://orgmode.org/guide/Export-options.html">The compact Org-mode&nbsp;Guide</a></li>
+<li><a href="http://orgmode.org/worg/org-tutorials/images-and-xhtml-export.html">Images and <span class="caps">XHTML</span>&nbsp;export</a></li>
+</ul>
+            <div>
+</div>
+
+            
+            <section>
+<p id="comment-message">So what do you think ?  Leave your comments below. </p>
+<div class="accordion" id="accordion2">
+    <div class="accordion-group">
+        <div class="accordion-heading">
+            <a class="accordion-toggle disqus-comment-count" data-toggle="collapse" data-parent="#accordion2"
+                href="https://cs.azzamsa.com/simple-org-mode-cheatsheet#disqus_thread",
+                id="disqus-accordion-toggle">
+                Comments
+            </a>
+        </div>
+        <div id="disqus_thread" class="accordion-body collapse">
+            <div class="accordion-inner">
+                <div class="comments">
+                    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'azzamsa';
+        var disqus_identifier = 'https://cs.azzamsa.com/simple-org-mode-cheatsheet';
+    var disqus_url = 'https://cs.azzamsa.com/simple-org-mode-cheatsheet';
+
+    (function() {
+         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+            <hr/>
+<hr/>
+<section>
+    <h2>Keep Reading</h2>
+<ul class="related-posts-list">
+<li><a href="https://cs.azzamsa.com/kumpulan-panduan-emacs-berbahasa-indonesia" title="Kumpulan Panduan Emacs Berbahasa Indonesia">Kumpulan Panduan Emacs Berbahasa Indonesia</a></li>
+</ul>
+</section>
+            <aside>
+            <nav>
+            <ul class="articles-timeline">
+                <li class="previous-article">« <a href="https://cs.azzamsa.com/my-lisp-faq" title="Previous: My Lisp Faq">My Lisp Faq</a></li>
+                <li class="next-article"><a href="https://cs.azzamsa.com/read-number-to-list-in-common-lisp" title="Next: Read Number To List In Common Lisp">Read Number To List In Common Lisp</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+    <h4>Reading Time</h4>
+    <p>~1 min read</p>
+            <h4>Published</h4>
+            <time itemprop="dateCreated" datetime="2017-10-31T22:25:22+07:00">Oct 31, 2017</time>
+            <h4>Category</h4>
+            <a class="category-link" href="https://cs.azzamsa.com/categories.html#cs-lang-en-ref">CS, lang-en</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="https://cs.azzamsa.com/tags#emacs-ref">Emacs
+                    <span>2</span>
+</a></li>
+            </ul>
+<h4>Stay in Touch</h4>
+    <a href="http://twitter.com/azzamsyawqi" title="My Twitter Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-twitter sidebar-social-links"></i></a>
+    <a href="http://github.com/azzamsa" title="My Github Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-github sidebar-social-links"></i></a>
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Proudly powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a> and <a href="https://github.com/Pelican-Elegant/elegant/" title="Theme Elegant Home Page">Elegant theme</a></li>
+    </ul>
+</div>
+</footer>            <script src="//code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+            <script type="text/javascript">
+var disqus_shortname = 'azzamsa';
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+<script  language="javascript" type="text/javascript">
+function uncollapse() {
+    if (window.location.hash.match(/^#comment-\d+$/)) {
+        $('#disqus_thread').collapse('show');
+    }
+}
+</script>
+<script type="text/javascript" language="JavaScript">
+uncollapse();
+window.onhashchange=function(){
+    if (window.location.hash.match(/^#comment-\d+$/))
+        window.location.reload(true);
+}
+</script>
+<script>
+$('#disqus_thread').on('shown', function () {
+    var link = document.getElementById('disqus-accordion-toggle');
+    var old_innerHTML = link.innerHTML;
+    $(link).fadeOut(500, function() {
+        $(this).text('Click here to hide comments').fadeIn(500);
+    });
+    $('#disqus_thread').on('hidden', function () {
+        $(link).fadeOut(500, function() {
+            $(this).text(old_innerHTML).fadeIn(500);
+        });
+    })
+})
+</script>
+
+
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : MIT -->
+</html>

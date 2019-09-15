@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="azzamsa" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="non-technical, CS, lang-id, " />
+
+<meta property="og:title" content="Pengalaman Magang di BiznetGio "/>
+<meta property="og:url" content="https://cs.azzamsa.com/pengalaman-magang-di-biznetgio" />
+<meta property="og:description" content="Hari demi hari pencarian perusahaan pengguna Python berjalan. BiznetGio pun muncul. Bahkan saya mendengarnya langsung dari penggiat perangkat lunak bebas di Indonesia. Tentu saya berdecak kagum. Tak dapat membayangkan benarkah mimpi itu bukan ilusi semata. Mimpi kelak bekerja di perusahaan dengan mindset dan lingkungan FOSS. Bagi saya, hal seperti itu …" />
+<meta property="og:site_name" content="AZZAMSA" />
+<meta property="og:article:author" content="azzamsa" />
+<meta property="og:article:published_time" content="2018-09-15T19:12:07+07:00" />
+<meta name="twitter:title" content="Pengalaman Magang di BiznetGio ">
+<meta name="twitter:description" content="Hari demi hari pencarian perusahaan pengguna Python berjalan. BiznetGio pun muncul. Bahkan saya mendengarnya langsung dari penggiat perangkat lunak bebas di Indonesia. Tentu saya berdecak kagum. Tak dapat membayangkan benarkah mimpi itu bukan ilusi semata. Mimpi kelak bekerja di perusahaan dengan mindset dan lingkungan FOSS. Bagi saya, hal seperti itu …">
+
+        <title>Pengalaman Magang di BiznetGio  · AZZAMSA
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet"> -->
+        <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous">
+<link rel="stylesheet" href="https://cs.azzamsa.com/theme/css/style.min.css?8bdcf96a">
+        <link rel="shortcut icon" href="https://cs.azzamsa.com/theme/images/favicon.png" type="image/x-icon" type="image/png" />
+        <link rel="icon" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+        <link rel="apple-touch-icon" href="https://cs.azzamsa.com/theme/images/apple-touch-icon.png"  type="image/png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-57x57.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-72x72.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-76x76.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-114x114.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-120x120.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-144x144.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="https://cs.azzamsa.com/theme/images/apple-touch-icon-152x152.png" type="image/png" />
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-125671517-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://azzamsa.com/"><span class=site-name>AZZAMSA</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <!-- <li ><a href="http://azzamsa.com/">Home</a></li> -->
+                            <li ><a href="https://cs.azzamsa.com/archives">Archives</a></li>
+                            <li ><a href="https://cs.azzamsa.com/categories">Categories</a></li>
+                            <li ><a href="https://cs.azzamsa.com/tags">Tags</a></li>
+                            <li><form class="navbar-search" action="https://cs.azzamsa.com/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article itemscope>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="https://cs.azzamsa.com/pengalaman-magang-di-biznetgio"> Pengalaman Magang di&nbsp;BiznetGio  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            
+            <p align="center">
+   <img src="https://imgur.com/gakDITX.jpg"
+   alt="me with Ibnu" width="300" height="400">
+</p>
+
+<p>Hari demi hari pencarian perusahaan pengguna Python berjalan.
+<a href="http://biznetgio.com/">BiznetGio</a> pun muncul. Bahkan saya
+mendengarnya langsung dari penggiat perangkat lunak bebas di
+Indonesia. Tentu saya berdecak kagum. Tak dapat membayangkan benarkah
+mimpi itu bukan ilusi semata. Mimpi kelak bekerja di perusahaan dengan
+<em>mindset</em> dan lingkungan <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software"><span class="caps">FOSS</span></a>.
+Bagi saya, hal seperti itu di Indonesia hanya sebuah mimpi. Bekerja di
+perusahaan yang memiliki mindset <span class="caps">FOSS</span> dan menggunakan lisensi bebas
+bahkan untuk <em>core application</em>nya. Tak percaya, saya mencoba konfirmasi
+ulang. Benar saja, saya mendapatkan pranala menuju beberapa
+aplikasinya di salah satu <em>source code hosting</em> dengan akses <em>public</em>
+dan berlisensi <em><span class="caps">MIT</span></em>. Kaget, kagum dan penasaran bercampur
+aduk. Bagaimana mungkin ada perusahaan di sekitar saya yang memiliki
+<em>mindset</em> <span class="caps">FOSS</span> seperti ini. Ingin berteriak syukur tetapi diri sedang di
+perpustakaan&nbsp;kampus.</p>
+<!--more-->
+
+<p>Segera saya mencari Fadlun Akbar. Kakak tingkat yang sangat aktif di
+ekosistem <span class="caps">FOSS</span>. Kami berdiskusi, saya meminta nasehat tentang pilihan
+tempat yang akan saya ambil. Tentu saya tau pasti bahwa <em>startup</em>
+besar pada daftar kandidat tempat magang tersebut memberikan
+kompensasi dalam jumlah yang besar. Tetapi hati tetap tertuju pada
+tempat dengan <em>mindset</em> dan ekosistem <em><span class="caps">FOSS</span></em> yang tinggi. Ditambah
+bonus tak ternilai seorang mentor yang saya tau (bukan kenal, karena
+beliau tidak tau saya) sejak lama merupakan sosok penting dalam
+perkembangan maupun gerakan perangkat lunak bebas di
+Indonesia. Setidaknya, kala itu saya berpikir. Bagaimana <em>keren</em>nya
+jika saya bisa belajar bersama beliau, melihat bagaimana beliau
+bekerja, dan yang terpenting, hasil pekerjaan saya akan digunakan
+banyak orang dengan lisensi bebas. Sungguh aroma <em>syurgawi</em>.</p>
+<p>Saya pun diminta untuk mengirim cv dan pranala akun <em>github</em> (bukan
+<em>LinkedIn</em>!). Tak lepas terselip di dalamnya alamat situs portofolio
+saya. Berbekal kontribusi pada beberapa proyek perangkat lunak
+bebas. Baik dalam bentuk ide/<em>feature request</em>, <em>bug</em> maupun
+code. Saya sedikit percaya diri untuk diterima. Sembilan hari
+menunggu. Surel balasan sampai dengan penjelasan bahwa saya
+diterima. Tinggal mengurus surat-surat administratifnya
+saja.&nbsp;Alhamdulillah.</p>
+<p>Tiga bulan berlalu. Saya pun bertolak ke jakarta untuk pertama
+kali. Bersyukur mendapatkan kos yang cukup dekat dengan kantor
+BiznetGio. Dengan bantuan Ahmad Hakeal. Sahabat lama di Gontor&nbsp;dulu.</p>
+<p>Hari pertama diawali dengan <em>briefing</em> bersama <span class="caps">HRD</span> BiznetGio kala itu,
+Mbak Tiara. Saya menerima akun untuk mengakses <em><span class="caps">MS</span> teams</em> (yang tidak
+pernah saya gunakan selama magang), dijelaskan jam kerja dan
+lingkungan kantor. Tentu tak lepas dari adanya <em>pantry</em> dan minuman
+yang dapat diambil setiap harinya. Tak lama kemudian, saya diajak
+berkeliling kantor seraya berkenalan dengan beberapa <em>software engineer</em>&nbsp;lain.</p>
+<p>Siang itu kali pertama saya bertemu pak Ibnu secara langsung. Orang
+yang sudah saya tau sejak dulu. Andai saya manusia yang berdiri di
+kejauhan. Saya pun bangga dengan kemauan seorang azzamsa muda yang
+menghubungi secara langsung orang-orang yang menginspirasinya. Tak
+disangka, sungguh tak disangka orang yang membuatnya <em>amazed</em> tiga
+tahun sebelumnya, kini menjadi mentornya. Berkerja dan berkolaborasi
+secara langsung. <em>Chat</em> pendek tersebut benar-benar menjadi artefak
+tak ternilai. Saksi bisu perjuangan awal belajar pemrograman. &#8220;Semoga
+saya bisa bermanfaat seperti mas dalam bidang Computer&nbsp;Science&#8221;</p>
+<p align="center">
+   <img src="https://i.imgur.com/IWpkOia.png"
+   alt="first chat with Ibnu" width="500" height="400"> 
+</p>
+
+<p>Kantin midplaza menjadi tempat awal kami bercengkrama. Berdiskusi
+segala hal yang akan dilakukan selama dua bulan ke depan. Tentu
+didalamnya kami diskusi teknologi terkini di dunia <span class="caps">FOSS</span>. Dengan tambahan
+diskusi filosofi serta tokoh-tokoh <span class="caps">FOSS</span> yang menjadi bumbu di siang
+itu. Sungguh saya merasa lebur ketika bercengkrama dengan pak
+Ibnu. Layaknya teman yang sudah lama kenal. Mungkin karena kami berdua
+cinta akan apa yang disebut&nbsp;&#8216;kontribusi&#8217;.</p>
+<p>Pengalaman sehari-hari yang saya alami tentu tidak cukup untuk
+diceritakan semua di sini. Setiap hari saya berproses. Diskusi,
+belajar, berbagi dan tentu tak lepas dari bercanda. Saya tipikal
+makhluk yang tidak terlalu ekspresif maupun suka bercanda. Tetapi tim
+pak ibnu yang beranggotakan empat orang termasuk saya dan pak
+ibnu. Tidak pernah lepas dari canda. Tentu saya harus melebur dan
+mencari <em>sticker</em> untuk saya gunakan pertama kali di <em>Telegram</em>. pak Ibnu
+sangat kental dengan humor khasnya. Mungkin Richard Feynman
+benar. <em>Have a sense of humor</em>.</p>
+<p>Entah begitu tingginya antusias saya dalam tim ini. Hingga hari terakhir
+magang pun, seringkali saya mengambil <em>screenshot</em> pada telegram
+sebelum <em>badge counter chat-chat</em> itu hilang karena dibuka. Tak sabar
+ingin membaca topik apa yang sedang&nbsp;dibicarakan.</p>
+<p>Banyak hal yang saya pelajari dari sosok pak Ibnu. Dengan tingkat
+keilmuan sedalam itu. Saya belum pernah melihat ia mencemooh hasil
+kerja kami. Ucapan yang tak pernah lepas darinya: &#8220;<em>nice, nice</em>&#8220;. Saya
+tau, dengan kaliber setingkat itu, tentu dia dapat melakukannya lebih
+baik dari pada kami. Tetapi tidak pernah keluar dari lisannya
+cemoohan. Ini hal yang paling berkesan bagi saya. Ia membina kami
+layaknya keluarga. Orang yang tak kenal kami, tentu tak akan pernah
+tau mana atasannya. Ia membaur bersama kami. Tak segan anak buahnya
+memanggilnya &#8216;om&#8217;. Termasuk saya. Sir Ibnu, you&nbsp;rock!.</p>
+<p>Ciri khas Ibnu leadership sepertinya tidak berhenti disini. Tak jarang
+saya melihat pak Ibnu berdiskusi dan bercanda bersama atasannya
+layaknya teman akrab. Saya bersyukur bisa berada di lingkungan
+ini. Mungkin rasa keakraban itu memang tak hanya ada pada tim kami.
+Saya tak tau apa yang dirasakan teman lainnya. Tetapi selama dua
+bulan. Tak pernah saya merasa ada&nbsp;beban.</p>
+<p>Munkin saja, pak Ibnu itu seorang dukun. Bisa jadi kami di<em>pelet</em>
+olehnya. Grup <em>telegram</em> itu tak pernah mengenal jam dan hari, sabtu
+ataupun minggu, <em>midnight</em> ataupun <em>midday</em>. Grup itu akan terus penuh
+dengan diskusi arsitektur, fitur serta <em>bug</em> yang ada pada project
+kami. Canda menjadi penyedap yang tidak akan pernah lepas. Syukurlah
+saya sudah mengunduh <em>telegram sticker</em>. Bisa jadi pak Ibnu memang
+seorang dukun. Dukun <em>leadership</em>.</p>
+<p>Kami tak memiliki <em>stand-up meeting</em> layaknya kebanyakan tempat
+lain. Kami diberi kebebasan mengerjakan dari tempat mana pun. Terdengar
+unik memang. Tetapi anehnya, kinerja teman-teman di tim sangat
+baik. Bahkan diskusi sepertinya sudah menjadi <em>part of our life</em>. Jika
+bergantinya malam dan siang, tidak menjadi batasan untuk
+<em>commit</em>. Diskusi yang tak kenal tempat dan waktu. Saya rasa <em>8 hours</em>
+sudah tidak menjadi&nbsp;urusan.</p>
+<p><em>Team leader</em> adalah orang yang paling tau dan paling bisa membentuk
+<em>rules</em> selama pengembangan perangkat lunak.
+<a href="http://typicalprogrammer.com/why-dont-software-development-methodologies-work">Tidak ada <em>software development methodologies</em> yang bekerja</a>
+<a href="https://zwischenzugs.com/2017/10/15/my-20-year-experience-of-software-development-methodologies/">tanpa di kostumisasi</a>
+karena setiap orang, tempat dan proyek tidak akan pernah sama. <em>Saya
+rasa</em> pak Ibnu menganut hal ini. <em>&#8220;Customized development method&#8221;</em>.</p>
+<p>Hari-hari terlewati penuh dengan diskusi, berbagi dan belajar
+bersama. Kami berbagi ide-ide menulis <em>idiomatic code</em>, algoritme yang
+lebih efisien dan banyak hal lain. Traktiran makan per minggu dari pak
+Ibnu selalu penuh dengan diskusi ringan tak lepas dari canda. Sungguh
+hari-hari yang sangat&nbsp;menyenangkan.</p>
+<p>Bisa jadi pak Ibnu memang dukun leadership. Tetapi semangat membara
+itu mungkin tak pernah padam karena
+<a href="https://github.com/BiznetGIO/neo-cli">proyek</a> itu sesuai dengan
+idealisme kami. Proyek perangkat lunak bebas. Saya sangat berbahagia
+di dalam setiap <em>commit</em>nya. Terimakasih BiznetGio. Mimpi itu kini
+sudah menjadi nyata. Tak lagi&nbsp;ilusi.</p>
+<p><em>Great manager</em>, <em>ability to work remotely</em> <em>plus</em> <em>Libre Software
+licesed project</em>. <em>what a breeze</em>. Tiga komponen yang membuat decak
+kagum dan kesyukuran selama magang di&nbsp;BiznetGio.</p>
+<p align="center">
+   <img src="https://i.imgur.com/kF39zFt.jpg"
+   alt="demand for remote work" width="400" height="300"> 
+</p>
+
+<blockquote>
+<p><em>Great manager</em>, <em>ability to work remotely</em>, <em>plus</em> <em>Libre Software
+licesed project</em>. <em>What a breeze</em>.</p>
+</blockquote>
+<p>Ada pertemuan tentu akan ada perpisahan. Minggu terakhir grup
+<em>telegram</em> sudah bersuasana haru. Kehilangan seorang sahabat yang akan
+kembali melanjutkan studi setelah magang. Akhir minggu itu seringkali
+pak Ibnu melantunkan doa dan perpisahan, padahal saya masih tinggal
+seminggu lagi. Sebelum kami benar-benar berpisah. Kami bersyukur atas
+perjalanan ini dengan sebuah <em>closing-tasyakuran</em></p>
+<p align="center">
+   <img src="https://i.imgur.com/a4rYz0b.jpg"
+   alt="closing tasyakuran" width="500" height="400"> 
+</p>
+
+<p>Setiap hari di minggu terakhir. Kami menghabiskan waktu bersama
+hingga malam. Diskusi dan bercanda ria di &#8216;mabes&#8217;. Begitu saya
+menyebutnya pada pak Ibnu dan teman di tim. Jauh sebelum perpisahan
+ini. Seringkali saya sampaikan kepada beliau bahwa tempat tidak akan pernah
+menjadi pembatas. Selama proyek tersebut berlisensi bebas. Tentu saya
+sangat siap untuk berkontribusi. Selain karena ide yang ingin saya
+implementasikan. Kontribusi tidak akan pernah lepas selama hayat masih
+dikandung badan. Stasiun Senen menjadi saksi bisu perpisahan kami yang
+penuh <em>chat</em> haru di telegram. Ditemani hujan&nbsp;rintik.</p>
+<p><em>Artikel sebelumnya dapat anda baca</em> <a href="https://cs.azzamsa.com/perjalanan-mencari-tempat-magang">di&nbsp;sini</a></p>
+<p style="text-align: center; color:#ff4c4c;">
+This post is not sponsored by Biznet Gio. All views and opinions are my&nbsp;own
+</p>
+            <div>
+</div>
+
+            
+            <section>
+<p id="comment-message">So what do you think ?  Leave your comments below. </p>
+<div class="accordion" id="accordion2">
+    <div class="accordion-group">
+        <div class="accordion-heading">
+            <a class="accordion-toggle disqus-comment-count" data-toggle="collapse" data-parent="#accordion2"
+                    data-disqus-identifier="001-penglaman-magang-bgn"
+                href="https://cs.azzamsa.com/pengalaman-magang-di-biznetgio#disqus_thread",
+                id="disqus-accordion-toggle">
+                Comments
+            </a>
+        </div>
+        <div id="disqus_thread" class="accordion-body collapse">
+            <div class="accordion-inner">
+                <div class="comments">
+                    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'azzamsa';
+        var disqus_identifier = '001-penglaman-magang-bgn';
+    var disqus_url = 'https://cs.azzamsa.com/pengalaman-magang-di-biznetgio';
+
+    (function() {
+         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+            <hr/>
+<hr/>
+<section>
+    <h2>Keep Reading</h2>
+<ul class="related-posts-list">
+<li><a href="https://cs.azzamsa.com/my-machine-setup" title="My Machine Setup">My Machine Setup</a></li>
+<li><a href="https://cs.azzamsa.com/how-i-came-to-know-gnulinux" title="How I Came To Know Gnu/Linux">How I Came To Know Gnu/Linux</a></li>
+<li><a href="https://cs.azzamsa.com/perjalanan-mencari-tempat-magang" title="Perjalanan Mencari Tempat Magang">Perjalanan Mencari Tempat Magang</a></li>
+</ul>
+</section>
+            <aside>
+            <nav>
+            <ul class="articles-timeline">
+                <li class="next-article"><a href="https://cs.azzamsa.com/perjalanan-mencari-tempat-magang" title="Next: Perjalanan Mencari Tempat Magang">Perjalanan Mencari Tempat Magang</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+    <h4>Reading Time</h4>
+    <p>~6 min read</p>
+            <h4>Published</h4>
+            <time itemprop="dateCreated" datetime="2018-09-15T19:12:07+07:00">Sep 15, 2018</time>
+        <h4>Magang BiznetGio</h4>
+    <ul class="multi-parts-list">
+            <li >
+            <a href="https://cs.azzamsa.com/perjalanan-mencari-tempat-magang" title="Perjalanan Mencari Tempat&nbsp;Magang">Part 1: Perjalanan Mencari Tempat&nbsp;Magang</a>
+            </li>
+            <li  class="active-part">
+            Part 2: Pengalaman Magang di&nbsp;BiznetGio
+            </li>
+    </ul>
+            <h4>Category</h4>
+            <a class="category-link" href="https://cs.azzamsa.com/categories.html#cs-lang-id-ref">CS, lang-id</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="https://cs.azzamsa.com/tags#non-technical-ref">non-technical
+                    <span>4</span>
+</a></li>
+            </ul>
+<h4>Stay in Touch</h4>
+    <a href="http://twitter.com/azzamsyawqi" title="My Twitter Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-twitter sidebar-social-links"></i></a>
+    <a href="http://github.com/azzamsa" title="My Github Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-github sidebar-social-links"></i></a>
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Proudly powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a> and <a href="https://github.com/Pelican-Elegant/elegant/" title="Theme Elegant Home Page">Elegant theme</a></li>
+    </ul>
+</div>
+</footer>            <script src="//code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+            <script type="text/javascript">
+var disqus_shortname = 'azzamsa';
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+<script  language="javascript" type="text/javascript">
+function uncollapse() {
+    if (window.location.hash.match(/^#comment-\d+$/)) {
+        $('#disqus_thread').collapse('show');
+    }
+}
+</script>
+<script type="text/javascript" language="JavaScript">
+uncollapse();
+window.onhashchange=function(){
+    if (window.location.hash.match(/^#comment-\d+$/))
+        window.location.reload(true);
+}
+</script>
+<script>
+$('#disqus_thread').on('shown', function () {
+    var link = document.getElementById('disqus-accordion-toggle');
+    var old_innerHTML = link.innerHTML;
+    $(link).fadeOut(500, function() {
+        $(this).text('Click here to hide comments').fadeIn(500);
+    });
+    $('#disqus_thread').on('hidden', function () {
+        $(link).fadeOut(500, function() {
+            $(this).text(old_innerHTML).fadeIn(500);
+        });
+    })
+})
+</script>
+
+
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : MIT -->
+</html>
