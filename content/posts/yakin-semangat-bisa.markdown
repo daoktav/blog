@@ -1,6 +1,7 @@
 Title: Yakin semangat bisa
 Date: 2019-09-15 20:21
 Category: Life
+Favourite: True
 
 Tiga kata yang senantiasa menemani langkahku. Kata- kata yakin, semangat, bisa
 memberikan energi tersendiri bagi ku. Akan tetapi tiga kata ini sebenarnya
