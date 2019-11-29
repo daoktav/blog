@@ -7,10 +7,12 @@ from __future__ import unicode_literals
 
 import os
 import sys
+
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://blog.daoktav.com'
+LANDINGSITE = "https://daoktav.com"
+SITEURL = "https://daoktav.com/blog"
 RELATIVE_URLS = False
 DELETE_OUTPUT_DIRECTORY = False
 
