@@ -4,63 +4,63 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://blog.daoktav.com/</loc>
-<lastmod>2019-09-15T20:40:40-00:00</lastmod>
+<loc>https://daoktav.com/blog/</loc>
+<lastmod>2019-11-29T13:35:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://blog.daoktav.com/archives.html</loc>
-<lastmod>2019-09-15T20:40:40-00:00</lastmod>
+<loc>https://daoktav.com/blog/archives.html</loc>
+<lastmod>2019-11-29T13:35:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://blog.daoktav.com/tags.html</loc>
-<lastmod>2019-09-15T20:40:40-00:00</lastmod>
+<loc>https://daoktav.com/blog/tags.html</loc>
+<lastmod>2019-11-29T13:35:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://blog.daoktav.com/categories.html</loc>
-<lastmod>2019-09-15T20:40:40-00:00</lastmod>
+<loc>https://daoktav.com/blog/categories.html</loc>
+<lastmod>2019-11-29T13:35:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://blog.daoktav.com/ingatlah-allah-senantiasa-bersamamu</loc>
+<loc>https://daoktav.com/blog/ingatlah-allah-senantiasa-bersamamu</loc>
 <lastmod>2019-09-15T20:21:00+07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://blog.daoktav.com/yakin-semangat-bisa</loc>
+<loc>https://daoktav.com/blog/yakin-semangat-bisa</loc>
 <lastmod>2019-09-15T20:21:00+07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://blog.daoktav.com/sang-pembawa-lentera</loc>
+<loc>https://daoktav.com/blog/sang-pembawa-lentera</loc>
 <lastmod>2019-09-15T20:19:00+07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://blog.daoktav.com/writing</loc>
+<loc>https://daoktav.com/blog/writing</loc>
 <lastmod>2019-01-21T07:57:00+07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://blog.daoktav.com/about</loc>
+<loc>https://daoktav.com/blog/about</loc>
 <lastmod>2019-04-03T19:52:00+07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
